@@ -1,32 +1,56 @@
 package com.ase.assignment;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Created by jayavardhanpatil on 11/20/19
  */
-public class Student{
+
+class Student{
 
     private String name;
     private ArrayList<Double> assignments;
     private ArrayList<Double> examScores;
+    private AverageStrategy averageStrategy;
+    private boolean isDropLowestScore = false;
 
     Student(String name){
         this.name = name;
-        this.assignments = new ArrayList<Double>();
-        this.examScores = new ArrayList<Double>();
+        this.assignments = new ArrayList<>();
+        this.examScores = new ArrayList<>();
     }
 
-    public void addAssignmentScore(double as){
+    void addAssignmentScore(double as){
+        System.out.println(name + " Assignment score is : "+ as);
         assignments.add(as);
     }
 
-    public void addExamScore (double es){
+    void addExamScore (double es){
+        System.out.println(name + " Exam score is : "+ es);
         examScores.add(es);
     }
 
-    public double getAverage(){
-        return 0.0;
+    String getStudentName(){
+        return name;
     }
 
+    private void setAverageStrategy(AverageStrategy newAverageStrategy){
+        this.averageStrategy = newAverageStrategy;
+    }
+
+    double getClassAverage(){
+
+        if(!isDropLowestScore){
+            setAverageStrategy(new AlgorithemOne());
+            return averageStrategy.getAverage(assignments,examScores);
+        }else{
+            setAverageStrategy(new AlgorithmTwo());
+            return averageStrategy.getAverage(assignments,examScores);
+        }
+    }
+
+    void setDropLowerAssignment(boolean algoType){
+        this.isDropLowestScore = algoType;
+    }
 }
