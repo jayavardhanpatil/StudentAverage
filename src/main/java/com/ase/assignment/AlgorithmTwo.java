@@ -12,21 +12,28 @@ public class AlgorithmTwo implements AverageStrategy {
     @Override
     public double getAverage(ArrayList<Double> assignmentPoints, ArrayList<Double> examPoints) {
         double assignmentSum = 0;
+        double assignmentAvg = 0;
+
         if(assignmentPoints.size() > 1) {
             Collections.sort(assignmentPoints);
             for (int i = 1; i < assignmentPoints.size(); i++) {
                 assignmentSum += assignmentPoints.get(i);
             }
+            assignmentAvg = calculateWeightedAverage(assignmentSum, ASSIGNMENT_WEIGHTAGE, assignmentPoints.size() - 1);
         }else{
-            assignmentSum = calculateAverage(assignmentPoints);
+            assignmentSum = totalPoints(assignmentPoints);
+            assignmentAvg = calculateWeightedAverage(assignmentSum, ASSIGNMENT_WEIGHTAGE, assignmentPoints.size());
         }
-        double examSum = calculateAverage(examPoints);
 
-        return ((assignmentSum / (assignmentPoints.size()-1)) * ASSIGNMENT_WEIGHTAGE / 100) +
-                ((examSum / examPoints.size()) * EXAM_WEIGHTAGE / 100);
+        double examSum = totalPoints(examPoints);
+        return (assignmentAvg + (calculateWeightedAverage(examSum, EXAM_WEIGHTAGE, examPoints.size())));
     }
 
-    private double calculateAverage(ArrayList<Double> points){
+    private double calculateWeightedAverage(double totalPoints, double weightage, int size){
+        return (totalPoints / size) * weightage / 100;
+    }
+
+    private double totalPoints(ArrayList<Double> points){
         double sum = 0;
         for(double point : points){
             sum += point;

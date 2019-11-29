@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b0139c-9007-4a42-bb28-b08f40080af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithemOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Grade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Average.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AverageStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AvgDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AvgDispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithemOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithemOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +100,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java</url>
-          <line>15</line>
+          <line>17</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

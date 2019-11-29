@@ -14,11 +14,13 @@ public class Application {
         student.addExamScore(87);
         student.addExamScore(91);
 
+        //Average Using Algorithm A
         student.setDropLowerAssignment(false);
         System.out.println("\nAlgorithm - (1) \n With considering all the scores" );
         System.out.println(student.getStudentName() + " : "+ student.getClassAverage());
         System.out.println("=========================");
 
+        //Average Using Algorithm B
         student.setDropLowerAssignment(true);
         System.out.println("\nAlgorithm - (2) \n With removing lowest assignment scores" );
         System.out.println(student.getStudentName() + " : "+ student.getClassAverage());

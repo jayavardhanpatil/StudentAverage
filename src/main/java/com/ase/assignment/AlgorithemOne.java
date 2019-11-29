@@ -9,8 +9,8 @@ public class AlgorithemOne implements AverageStrategy {
 
     public double getAverage(ArrayList<Double> assignmentpoints, ArrayList<Double> examPoints) {
 
-        return (((calculateAverage(assignmentpoints) / assignmentpoints.size()) * ASSIGNMENT_WEIGHTAGE) / 100) +
-                ((calculateAverage(examPoints) / examPoints.size()) * EXAM_WEIGHTAGE / 100);
+        return (calculateWeightedAverage(calculateAverage(assignmentpoints), ASSIGNMENT_WEIGHTAGE, assignmentpoints.size())) +
+                (calculateWeightedAverage(calculateAverage(examPoints), EXAM_WEIGHTAGE, examPoints.size()));
     }
 
     private double calculateAverage(ArrayList<Double> points){
@@ -19,5 +19,9 @@ public class AlgorithemOne implements AverageStrategy {
             sum += point;
         }
         return sum;
+    }
+
+    private double calculateWeightedAverage(double totalPoints, double weightage, int size){
+        return (totalPoints / size) * weightage / 100;
     }
 }
