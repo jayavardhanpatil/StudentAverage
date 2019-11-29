@@ -14,6 +14,7 @@ class Student{
     private ArrayList<Double> examScores;
     private AverageStrategy averageStrategy;
     private boolean isDropLowestScore = false;
+    private GradeObserver observer;
 
     Student(String name){
         this.name = name;
@@ -22,13 +23,15 @@ class Student{
     }
 
     void addAssignmentScore(double as){
-        System.out.println(name + " Assignment score is : "+ as);
+        System.out.println(name + "'s Assignment score is : "+ as);
+        if(observer!=null) notifyObeserver();
         assignments.add(as);
     }
 
     void addExamScore (double es){
-        System.out.println(name + " Exam score is : "+ es);
+        System.out.println(name + "'s Exam score is : "+ es);
         examScores.add(es);
+        notifyObeserver();
     }
 
     String getStudentName(){
@@ -52,5 +55,15 @@ class Student{
 
     void setDropLowerAssignment(boolean algoType){
         this.isDropLowestScore = algoType;
+    }
+
+    public void registerTracker(GradeObserver observer) {
+        this.observer = observer;
+    }
+
+    public void notifyObeserver() {
+        if(observer != null) {
+            observer.update();
+        }
     }
 }

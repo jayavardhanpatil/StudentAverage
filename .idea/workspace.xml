@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b0139c-9007-4a42-bb28-b08f40080af3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithemOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithemOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -94,14 +95,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/AlgorithmTwo.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeTracker.java</url>
           <line>17</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeTracker.java</url>
+          <line>16</line>
+          <properties class="com.ase.assignment.GradeTracker" method="getGrade">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
