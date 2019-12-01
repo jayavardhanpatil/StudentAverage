@@ -7,7 +7,7 @@ import java.util.Collections;
  * Created by jayavardhanpatil on 11/20/19
  */
 
-class Student{
+class Student implements GradeNotifier{
 
     private String name;
     private ArrayList<Double> assignments;
@@ -57,10 +57,12 @@ class Student{
         this.isDropLowestScore = algoType;
     }
 
-    public void registerTracker(GradeObserver observer) {
+    @Override
+    public void registerNotifier(GradeObserver observer) {
         this.observer = observer;
     }
 
+    @Override
     public void notifyObeserver() {
         if(observer != null) {
             observer.update();

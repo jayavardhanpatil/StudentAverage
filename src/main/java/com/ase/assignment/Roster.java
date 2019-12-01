@@ -5,15 +5,15 @@ import java.util.ArrayList;
 /**
  * Created by jayavardhanpatil on 11/20/19
  */
-public class Roster {
+public class Roster{
 
     private String courseName;
     private String courseNumber;
     private ArrayList<Student> students;
 
-    Roster(String name, String number){
+    Roster(String name, String courseNumber){
         this.courseName = name;
-        this.courseNumber = number;
+        this.courseNumber = courseNumber;
         students = new ArrayList<Student>();
     }
 
@@ -21,8 +21,11 @@ public class Roster {
         return courseName;
     }
 
-    public void addStudent(Student student){
+    void addStudent(Student student){
         students.add(student);
     }
 
+    AvgDispenser getDispenser(){
+        return new AverageDispenserProxy(students);
+    }
 }

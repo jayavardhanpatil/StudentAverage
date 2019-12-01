@@ -25,8 +25,9 @@ public class GradeTracker implements GradeObserver{
             return 'D';
         }else if(points >= 50){
             return 'E';
+        }else {
+            return 'F';
         }
-        return 'F';
     }
 
     @Override

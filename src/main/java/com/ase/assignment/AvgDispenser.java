@@ -6,4 +6,7 @@ package com.ase.assignment;
 
 public interface AvgDispenser {
 
+    double getNextStudentAvg();
+    boolean done();
+
 }
