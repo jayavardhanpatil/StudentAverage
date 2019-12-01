@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82b0139c-9007-4a42-bb28-b08f40080af3" name="Default Changelist" comment="" />
+    <list default="true" id="82b0139c-9007-4a42-bb28-b08f40080af3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AvgDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AvgDispenser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/SpecialAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/SpecialAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -22,6 +31,9 @@
   <component name="ProjectId" id="1Tu5Q2xjEFJNGzQfEu3Wn7sD7SO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/uiDesigner.xml&#10;/Users/jayavardhanpatil/Downloads/grade/Question1.ucls" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -85,16 +97,10 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/grade$Application.ic" NAME="Application Coverage Results" MODIFIED="1575171545247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ase.assignment.SpecialAverage</FILTER>
+    </SUITE>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

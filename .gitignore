@@ -1,4 +1,8 @@
 *.iml
-*.idea
+*.idea/*
 target/
 .idea/workspace.xml
+*.ucls
+.classpath
+.project
+.settings/

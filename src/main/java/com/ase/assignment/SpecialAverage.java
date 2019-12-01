@@ -12,7 +12,7 @@ public class SpecialAverage implements AverageStrategy {
     @Override
     public double getAverage(ArrayList<Double> assignmentPoints, ArrayList<Double> examPoints) {
         double assignmentSum = 0;
-        double assignmentAvg = 0;
+        double assignmentAvg;
 
         if(assignmentPoints.size() > 1) {
             Collections.sort(assignmentPoints);

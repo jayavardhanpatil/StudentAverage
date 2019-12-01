@@ -21,7 +21,7 @@ public class RosterProxy implements AvgDispenser {
     }
 
     @Override
-    public boolean done() {
+    public boolean hasNext() {
         return count == students.size();
     }
 }

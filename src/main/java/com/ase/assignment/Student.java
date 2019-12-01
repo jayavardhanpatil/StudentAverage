@@ -23,7 +23,7 @@ class Student implements GradeNotifier{
 
     void addAssignmentScore(double as){
         System.out.println(name + "'s Assignment score is : "+ as);
-        if(observer!=null) notifyObeserver();
+        notifyObeserver();
         assignments.add(as);
     }
 
