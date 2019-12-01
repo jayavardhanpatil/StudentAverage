@@ -1,7 +1,6 @@
 package com.ase.assignment;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 /**
  * Created by jayavardhanpatil on 11/20/19
@@ -45,10 +44,10 @@ class Student implements GradeNotifier{
     double getClassAverage(){
 
         if(!isDropLowestScore){
-            setAverageStrategy(new AlgorithemOne());
+            setAverageStrategy(new RegularAverage());
             return averageStrategy.getAverage(assignments,examScores);
         }else{
-            setAverageStrategy(new AlgorithmTwo());
+            setAverageStrategy(new SpecialAverage());
             return averageStrategy.getAverage(assignments,examScores);
         }
     }

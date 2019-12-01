@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by jayavardhanpatil on 11/22/19
  */
-public class AlgorithemOne implements AverageStrategy {
+public class RegularAverage implements AverageStrategy {
 
     public double getAverage(ArrayList<Double> assignmentpoints, ArrayList<Double> examPoints) {
 

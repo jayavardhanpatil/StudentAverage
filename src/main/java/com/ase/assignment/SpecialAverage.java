@@ -6,7 +6,7 @@ import java.util.Collections;
 /**
  * Created by jayavardhanpatil on 11/22/19
  */
-public class AlgorithmTwo implements AverageStrategy {
+public class SpecialAverage implements AverageStrategy {
 
 
     @Override
