@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b0139c-9007-4a42-bb28-b08f40080af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AverageDispenserProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeNotifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AvgDispenser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AvgDispenser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/GradeTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Roster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Student.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +92,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/AverageDispenserProxy.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java</url>
           <line>19</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>

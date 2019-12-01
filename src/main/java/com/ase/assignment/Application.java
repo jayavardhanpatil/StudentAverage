@@ -1,5 +1,7 @@
 package com.ase.assignment;
 
+import java.util.ArrayList;
+
 /**
  * Created by jayavardhanpatil on 11/22/19
  */
@@ -59,7 +61,6 @@ public class Application {
         computer.addStudent(student);
         computer.addStudent(student1);
 
-        //
         System.out.println("\n\nget student's average scores");
         System.out.println("---------------------------");
         AvgDispenser avgDispenser = computer.getDispenser();
@@ -71,7 +72,7 @@ public class Application {
 
 
         //Test with multiple clients
-  /*    AvgDispenser avgDispenser1 = computer.getDispenser();
+      /*AvgDispenser avgDispenser1 = computer.getDispenser();
         AvgDispenser avgDispenser2 = computer.getDispenser();
         AvgDispenser avgDispenser3 = computer.getDispenser();
 
@@ -88,7 +89,7 @@ public class Application {
 
     private static void getAverage(AvgDispenser ad){
         while (!ad.done()){
-            System.out.println(ad.hashCode()+ " Next Student average is : "+ad.getNextAvg());
+            System.out.println(ad.hashCode()+ " Next Student average is : "+ad.getNextStudentAvg());
         }*/
     }
 }
