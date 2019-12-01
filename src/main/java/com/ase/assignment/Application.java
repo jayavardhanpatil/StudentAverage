@@ -65,7 +65,7 @@ public class Application {
         System.out.println("---------------------------");
         AvgDispenser avgDispenser = computer.getDispenser();
 
-        while (!avgDispenser.hasNext()){
+        while (avgDispenser.hasNext()){
             System.out.println("Next Student average is : "+avgDispenser.getNextStudentAvg());
         }
 
