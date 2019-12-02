@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82b0139c-9007-4a42-bb28-b08f40080af3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Roster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/Roster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ase/assignment/RosterProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ase/assignment/AverageDispenserIterator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -26,6 +26,6 @@ public class Roster{
     }
 
     AvgDispenser getDispenser(){
-        return new RosterProxy(students);
+        return new AverageDispenserIterator(students);
     }
 }
